@@ -1,0 +1,16 @@
+{
+  "name": "group7-project",
+  "version": "1.0.0",
+  "description": "Fullstack project with backend and frontend",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && node server.js",
+    "client": "cd frontend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.13.0"
+  }
+}
